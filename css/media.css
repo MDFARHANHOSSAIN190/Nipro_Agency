@@ -1,0 +1,166 @@
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/* header start */
+.d_dm {
+    padding: 10px 10px;
+    width: 300px;
+}
+.d_dm[data-bs-popper] {
+    top: 40px;
+    left: -10px;
+}
+/* header end */
+
+/* slider start */
+.s_content {
+    margin: 55px 0;
+}
+.sli_h1 {
+    font-size: 27px;
+     }
+    .sli_p {
+        margin-top: 20px;
+    }
+.sli_b {
+    font-size: smaller;
+}
+
+/* slider end */
+
+/* feature start */
+.s_feature {
+    margin-top: 65px;
+}
+.s_icon i{
+    font-size: 55px;
+.sf_line {
+    margin: 12px 0;
+}
+.ftr_h2{
+    font-size: 17px;
+}
+.ftr_p2{
+       font-size: 15px;
+        padding: 0 13px 0;
+}
+
+/* feature end */
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* header start */
+.d_dm {
+    padding: 10px 10px;
+    width: 300px;
+}
+.d_dm[data-bs-popper] {
+    top: 40px;
+    left: -10px;
+}
+/* header end */
+
+/* slider start */
+.car_ind{
+    margin-top: 20px;
+}
+ .s_content {
+        margin: 85px 0;
+    }
+.sli_h1 {
+    font-size: 27px;
+     }
+.sli_p {
+        margin: 25px 0;
+        padding-right: 80px;
+    }
+.sli_b {
+    font-size: smaller;
+}
+/* slider end */
+
+/* feature start */
+.s_feature {
+    margin-top: 75px;
+}
+.sf_line {
+    margin: 12px 0;
+}
+.ftr_p2{
+        padding: -1px 0 0;
+}
+
+/* feature end */
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/* header start */
+.d_dm[data-bs-popper] {
+    top: -11px;
+    left: 80px;
+    margin-top: 0;
+}
+/* header end */
+/* slider start */
+.sli_p {
+    padding: 0 80px 0 0;
+     }
+/* slider end */
+
+/* feature start */
+.s_feature {
+    margin-top: 80px;
+}
+.ftr_p2{
+        padding: 0 15px 0;
+}
+/* feature end */
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+/* slider start */
+.s_content {
+    margin: 110px 0;
+}
+.sli_p {
+    padding-right: 170px;
+     }
+/* slider end */
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+/* slider start */
+.sli_p {
+    padding-right: 180px;
+    margin: 25px 0;
+}
+/* slider end */
+/* about start */
+.abt_b {
+    margin-top: 75px;
+    }
+/* about end */
+}
+/*// Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+/* slider start */
+.sli_p {
+    padding-right: 180px;
+    margin: 22px 0;
+}
+/* slider end */
+
+/* about start */
+.abt_b {
+    margin-top: 75px;
+
+}
+/* about end */
+}
